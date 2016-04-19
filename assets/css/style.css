@@ -1,0 +1,56 @@
+article p, section p, section li {
+    font-family: 'Open Sans','Helvetica', 'Crimson Text', 'Garamond', 'Palatino', sans-serif;
+    text-align: justify;
+    font-size: 20px;
+    line-height: 1.5em;
+    color: #444;
+    margin-bottom: 20px;
+}
+
+article li {
+    font-family: 'Open Sans','Helvetica', 'Crimson Text', 'Garamond', 'Palatino', sans-serif;
+    text-align: justify;
+    font-size: 20px !important;
+    line-height: 1.1em;
+    color: #444;
+}
+
+.title-slide hgroup > h1, 
+.title-slide hgroup > h2 {
+    color: darkblue;
+}
+
+.title-slide {
+    background-image: url("../img/title.png");
+    background-size: 70%;
+    background-color: #B1DFFF;
+    background-repeat: no-repeat;
+    background-position-x: 90%;
+    background-position-y: 10%;
+}
+
+.title-slide hgroup {
+    bottom: 20px !important;
+}
+.h2 {
+  margin-bottom: 40px;
+}
+
+.title-slide hgroup {
+    bottom: 50px;
+}
+
+slides > slide:not(.nobackground):after {
+  display:none;
+}
+
+table {
+    border: none;
+    width: 50%;
+    border-collapse: collapse;
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 20px;
+    margin-left: 25%;
+    color: rgb(102, 102, 102);
+}
